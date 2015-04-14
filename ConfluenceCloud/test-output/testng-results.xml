@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80625" started-at="2015-04-13T06:37:07Z" finished-at="2015-04-13T06:38:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80625" started-at="2015-04-13T06:37:07Z" finished-at="2015-04-13T06:38:28Z">
+      <class name="testCases.TestCases">
+        <test-method status="PASS" signature="SetUpBrowserInsatcne()[pri:0, instance:testCases.TestCases@2eee9593]" name="SetUpBrowserInsatcne" is-config="true" duration-ms="18703" started-at="2015-04-13T11:36:49Z" finished-at="2015-04-13T11:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpBrowserInsatcne -->
+        <test-method status="PASS" signature="LoginToConfluence()[pri:0, instance:testCases.TestCases@2eee9593]" name="LoginToConfluence" duration-ms="26485" started-at="2015-04-13T11:37:07Z" finished-at="2015-04-13T11:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToConfluence -->
+        <test-method status="PASS" signature="OpenNewPage()[pri:0, instance:testCases.TestCases@2eee9593]" name="OpenNewPage" duration-ms="16696" started-at="2015-04-13T11:37:34Z" finished-at="2015-04-13T11:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenNewPage -->
+        <test-method status="PASS" signature="PageContent()[pri:0, instance:testCases.TestCases@2eee9593]" name="PageContent" duration-ms="13299" started-at="2015-04-13T11:37:51Z" finished-at="2015-04-13T11:38:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageContent -->
+        <test-method status="PASS" signature="AddRestrictionsToPage()[pri:0, instance:testCases.TestCases@2eee9593]" name="AddRestrictionsToPage" duration-ms="24124" started-at="2015-04-13T11:38:04Z" finished-at="2015-04-13T11:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddRestrictionsToPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TestCases@2eee9593]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-04-13T11:38:28Z" finished-at="2015-04-13T11:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
