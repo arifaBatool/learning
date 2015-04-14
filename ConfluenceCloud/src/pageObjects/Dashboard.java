@@ -42,7 +42,7 @@ public static WebDriver getDriver() {
 public static void setDriver(WebDriver driver) {
 	Dashboard.driver = driver;
 }
-
+//returns the page title 
 public String getPageTitle() {
 	String str = getDriver().getTitle();
 	return str;
