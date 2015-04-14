@@ -21,6 +21,7 @@ public class TestCases {
 	private static WebDriver driver = null;
 	private String pt = "";
 	
+	//Run thsi method before testsuite
 	@BeforeSuite
 	public void SetUpBrowserInsatcne(){
 		driver = new FirefoxDriver();
