@@ -11,6 +11,7 @@ public class Dashboard {
 	  Dashboard.setDriver(loginDriver);
 	}
   
+  //The method selects the new page type (We are selecting Blank Page type here)
   public static PageCreate CreateNewPage()
   {
 	  getDriver().findElement(By.id("create-page-button")).click();
@@ -19,6 +20,7 @@ public class Dashboard {
 	return new PageCreate(driver);
 	  }
 
+  //This method applies restrictions on an existing page
   public static PageCreate AddPageRestriction(String title){
 	  driver.findElement(By.xpath("//*[@id=\"logo\"]/a/img")).click();
 	  driver.findElement(By.linkText("All Updates")).click();

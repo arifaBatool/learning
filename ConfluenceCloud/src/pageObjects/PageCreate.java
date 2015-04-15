@@ -48,6 +48,7 @@ public class PageCreate {
 		return driver;
 	}
 
+	//Returns pageTitle
 	public String getPageTitle() {
 		String str = getDriver().getTitle();
 		return str;
